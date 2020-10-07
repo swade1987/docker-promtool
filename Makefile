@@ -21,7 +21,7 @@ GCLOUD_SERVICE_EMAIL 	:= circle-ci@mettle-bank.iam.gserviceaccount.com
 GOOGLE_PROJECT_ID		:= mettle-bank
 GOOGLE_COMPUTE_ZONE		:= europe-west2-a
 
-PROMETHEUS_VERSION		:= v2.19.0
+PROMETHEUS_VERSION		:= v2.20.1
 IMAGE             		:= $(PROJNAME):$(PROMETHEUS_VERSION)
 
 #------------------------------------------------------------------
